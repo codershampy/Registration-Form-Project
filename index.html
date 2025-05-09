@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <h2>Registration Form</h2>
+       <div>
+           <label>Candidate Name</label>
+           <input type="text" name = "">
+       </div>
+       <div>
+           <label>Email ID</label>
+           <input type="text" name = "">
+       </div>
+       <div>
+            <label>Mobile Number</label>
+            <input type="text" name = "">
+       </div>
+       <div>
+          <label>Course</label>
+          <select name="course">
+               <option>CCC</option>
+               <option>O Level</option>
+               <option>A Level</option>
+               <option>DCA</option> 
+          </select>
+       </div>
+       <div>
+           <label>Gender</label>
+           <div class="form-inline">
+               <label>
+                    <input type="radio"name= "gender" value = "male">Male
+               </label>
+               <label>
+                    <input type="radio" name = "gender" value = "female">Female
+               </label>
+           </div>
+       </div>
+       <div>
+        <label>Category</label>
+        <div class="form-inline">
+            <label>
+                <input type="checkbox"name = "category" value="gen">Gen
+            </label>
+            <label>
+                 <input type="checkbox"name = "category"value = "OBC">OBC
+            </label>
+            <label>
+                  <input type="checkbox"name = "category"value = "SC">SC
+            </label>
+            <label>
+                   <input type="checkbox"name = "category"value = "ST">ST
+            </label>
+        </div>
+       </div>
+       <div>
+           <input type="submit" name = "register"value = "Register">
+       </div>
+    </form>
+</body>
+</html>
